@@ -158,7 +158,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>com.poterion.raspi.w2812.Main</mainClass>
+							<mainClass>com.poterion.raspi.w2812.server.Main</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>

@@ -13,7 +13,7 @@
 			<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss:ms} %-5p %c{1}:%L - %m%n"/>
 		</layout>
 		<param name="append" value="true"/>
-		<param name="file" value="/var/log/com.poterion.raspi.w2812.log"/>
+		<param name="file" value="/var/log/com.poterion.raspi.w2812.server.log"/>
 		<param name="maxFileSize" value="10MB"/>
 	</appender>
 

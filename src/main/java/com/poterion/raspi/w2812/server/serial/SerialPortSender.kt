@@ -1,4 +1,4 @@
-package com.poterion.raspi.w2812.serial
+package com.poterion.raspi.w2812.server.serial
 
 import jssc.SerialPort
 import jssc.SerialPortEvent

@@ -1,6 +1,6 @@
-package com.poterion.raspi.w2812
+package com.poterion.raspi.w2812.server
 
-import com.poterion.raspi.w2812.serial.SerialPortReader
+import com.poterion.raspi.w2812.server.serial.SerialPortReader
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import java.io.BufferedWriter
