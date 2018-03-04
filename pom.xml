@@ -39,55 +39,10 @@
 				<scope>test</scope>
 			</dependency>
 			<!-- 3rd Party -->
-			<dependency>
-				<groupId>com.squareup.retrofit2</groupId>
-				<artifactId>retrofit</artifactId>
-				<version>${retrofit.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>com.squareup.retrofit2</groupId>
-				<artifactId>converter-jackson</artifactId>
-				<version>${retrofit.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>com.fasterxml.jackson.core</groupId>
-				<artifactId>jackson-annotations</artifactId>
-				<version>${jackson.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>com.fasterxml.jackson.core</groupId>
-				<artifactId>jackson-databind</artifactId>
-				<version>${jackson.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>com.fasterxml.jackson.dataformat</groupId>
-				<artifactId>jackson-dataformat-yaml</artifactId>
-				<version>${jackson.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>io.reactivex.rxjava2</groupId>
-				<artifactId>rxjava</artifactId>
-				<version>${rxjava.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>io.reactivex.rxjava2</groupId>
-				<artifactId>rxkotlin</artifactId>
-				<version>${rxkotlin.version}</version>
-			</dependency>
 			<dependency><!-- https://mvnrepository.com/artifact/org.scream3r/jssc -->
 				<groupId>org.scream3r</groupId>
 				<artifactId>jssc</artifactId>
 				<version>${jssc.version}</version>
-			</dependency>
-			<dependency><!-- https://mvnrepository.com/artifact/net.sf.bluecove/bluecove -->
-				<groupId>net.sf.bluecove</groupId>
-				<artifactId>bluecove</artifactId>
-				<version>${bluecove.version}</version>
-			</dependency>
-			<dependency><!-- https://mvnrepository.com/artifact/net.sf.bluecove/bluecove-gpl -->
-				<groupId>net.sf.bluecove</groupId>
-				<artifactId>bluecove-gpl</artifactId>
-				<version>${bluecove.version}</version>
 			</dependency>
 			<!-- Logging -->
 			<dependency>
@@ -118,14 +73,6 @@
 		<dependency>
 			<groupId>org.scream3r</groupId>
 			<artifactId>jssc</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>net.sf.bluecove</groupId>
-			<artifactId>bluecove</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>net.sf.bluecove</groupId>
-			<artifactId>bluecove-gpl</artifactId>
 		</dependency>
 		<!-- Logging -->
 		<dependency>
